@@ -500,7 +500,7 @@ footer {
 
 /* Blog Banner */
 .blog-banner {
-    background-image: url('/images/blog-image-adventurers.jpg');
+    background-image: url('../images/blog-image-adventurers.jpg');
     background-size: cover; 
     background-position: center; 
     min-height: 110vh; 
