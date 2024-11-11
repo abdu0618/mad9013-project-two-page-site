@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- prof comment
+    title should unique from other pages and describe the content of the page.
+    For example: "One-Shot Adventures | Adventure Co-Op"
+    -->
     <title>Adventure Co.</title>
     <link rel="stylesheet" href="./css/main.css" />
 
@@ -29,8 +33,19 @@
         </nav>
     </header>
 
+    <!-- prof comment
+      missing <main>
+    -->
+
+    <!-- prof comment
+      move the banner into the <article>
+    -->
     <section class="blog-banner">
         <div class="article-header">
+            <!-- prof comment
+              <br> tags should only be used when the line break is relevant to the content. Like in poems, lyrics, or addresses.
+              Use CSS to control line-breaks instead
+            -->
             <h1>One-Shot Adventures: What <br>They Are, Why We Love Them, <br>and Recommendations</h1>
             <p><strong>By Mike Bernier</strong></p>
             <p>Original article from DnDBeyond: <a href="https://www.dndbeyond.com/posts/1300-one-shot-adventures-what-they-are-why-we-love-them"></a></p>
@@ -40,6 +55,9 @@
 
         <div class="content-wrapper">
     <article class="blog-post">
+        <!-- prof comment
+          the banner should be inside of the article here
+        -->
 
 
         <section class="article-intro">
@@ -127,12 +145,26 @@
     <aside class="related-posts">
         <h3>Related Blog Posts</h3>
         <ul>
+            <!-- prof comment
+                the text in the post previews below should be more specifically
+                marked up:
+                <li>
+                    <a href="#">
+                        <h3>5 Tips for Running the Death House One-Shot From Curse of Strahd</h3>
+                        <p>by Jeremy Blum</p>
+                    </a>
+                </li>
+            -->
             <li><a href="#">5 Tips for Running the Death House One-Shot From Curse of Strahd</a> by Jeremy Blum</li>
             <li><a href="#">How to Mashup D&D Sourcebooks for Versatile Storytelling</a> by Riley Silverman</li>
             <li><a href="#">Deborah Ann Woll Shares Tips for Incorporating Puzzles in Your D&D Game</a> by Mike Bernier</li>
         </ul>
     </aside>
 </div>
+
+<!-- prof comment
+  missing closing </main>
+-->
     <footer>
         <div class="footer-container">
             <div class="footer-logo">
